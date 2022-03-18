@@ -1,0 +1,1797 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jupis/Documents/GitHub/vrMobile/VRGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60003
+Successfully changed project path to: C:/Users/jupis/Documents/GitHub/vrMobile/VRGame
+C:/Users/jupis/Documents/GitHub/vrMobile/VRGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.20 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jupis/Documents/GitHub/vrMobile/VRGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   
+    VRAM:     12142 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001413 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (278ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (118ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005294 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1AE40D030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE9279C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEA75230 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE9279C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AECB5A30 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFC87010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEA18230 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1846A4B10 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE9279C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF08B010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE9279C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189A9F480 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189D84430 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189A9F480 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE800040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189E8D150 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE996020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189E6C830 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.42 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (793ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.5 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 2.852700 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.054000 ms MarkObjects: 2.543100 ms  DeleteObjects: 0.063700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(898215b92cbcdf648abfc28dfc239801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(898215b92cbcdf648abfc28dfc239801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d25bb21d3d1a6a59104e19db57a8497') in 1.364724 seconds 
+  Import took 1.368015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.737375 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a1f46822e7467e144a96a62d97fc4c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a1f46822e7467e144a96a62d97fc4c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1626ab63cc6b83d09ebf77e693c98381') in 0.004525 seconds 
+  Import took 0.007696 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DF9F21F090 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE409020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2917040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189B02010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE42B030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2DC0D40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A394010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FCBB0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE409020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF08B010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE672430 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189A9F480 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1B190 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEF3D500 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A13B510 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189DE4020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2917040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFEB51B0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Domain Reload Profiling:
+	ReloadAssembly (743ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.0 MB.
+System memory in use after: 168.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 3.037000 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.728300 ms  DeleteObjects: 0.020900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.019882 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(4b9ed2b129f1625479c7e246e69861a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(4b9ed2b129f1625479c7e246e69861a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded77f2d62125f69aa2af5837600d5bf') in 0.007882 seconds 
+  Import took 0.011075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B25C78F0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE409020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189C1A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFFCB030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE42B030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2DC0D40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A394010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FAC30 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE409020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF08B010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B25BFB50 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D46E0040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1C7B0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D415E010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A139510 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A139510 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189C1A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEBE6AF0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2686.
+Total: 2.829200 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.531000 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.117439 seconds.
+  path: Assets/Scripts/CubeMovement.cs
+  artifactKey: Guid(5a5a83651cf888048a173ad9fd3c2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CubeMovement.cs using Guid(5a5a83651cf888048a173ad9fd3c2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30b1c59cd69362c772583e308667d2d') in 0.008620 seconds 
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005258 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E189B05030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE409020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189C1A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4042020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF80B3E0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4910010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2780090 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FE890 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4042020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFEB7710 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4042020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1C4D020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C19B70 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1B94E50 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFF7B220 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFF7B220 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189C1A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322A360 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 2.854100 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.044900 ms MarkObjects: 2.593300 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.395057 seconds.
+  path: Assets/Scripts/Destroy.cs
+  artifactKey: Guid(d957f319c83d1c846afafdd155e2d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Destroy.cs using Guid(d957f319c83d1c846afafdd155e2d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd923e5356232d9be938838c89eef5000') in 0.007852 seconds 
+  Import took 0.010935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E18A08C460 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF0F9030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEC3F030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0091030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189FD5040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4910010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B19A26B0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FD630 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AED75030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189EAD750 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B29ED010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0491020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1FF00 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1B94E50 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFFCF040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A0BF300 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEC3F030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B3228A10 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (824ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (671ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.994600 ms (FindLiveObjects: 0.503300 ms CreateObjectMapping: 0.114100 ms MarkObjects: 3.351000 ms  DeleteObjects: 0.025200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.452693 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(6592806d80ca37041ad70de227452f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(6592806d80ca37041ad70de227452f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [XR] Error loading subsystem: Display (1) (header mismatch?)
+ -> (artifact id: '8f4bdff3bde836eb098adbb78be2a945') in 0.021087 seconds 
+  Import took 0.024312 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B280C030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D431F020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0305010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B354C430 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5C5F050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2DC0D40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B17D3020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FD390 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AED75030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFEB7710 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0491020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1D2C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B22CC000 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0226E70 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B055B220 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEA74010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322AD80 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Domain Reload Profiling:
+	ReloadAssembly (846ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (713ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 3.107500 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.838600 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005507 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B336FB70 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F573C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEA74010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B354C430 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2E2A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2DC0D40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FE890 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AED75030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B312FDB0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1D2C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B22CC000 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F56D0080 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B33F5680 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEA74010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322C1C0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 3.135000 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.772700 ms  DeleteObjects: 0.023100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006096 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B336FB70 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F53ADF40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0305010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B199A050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B024B010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2DC0D40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31FD390 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F53ADF40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5DB9020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4A0E010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1BCA0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B3372E00 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A0B1030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31A8F30 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2588020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B3228F20 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 2.878400 ms (FindLiveObjects: 0.215600 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.599200 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 491.080873 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(81a91a42a3cec0e42b624b6e9b6fff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(81a91a42a3cec0e42b624b6e9b6fff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc256c802d3ced39b7eab0617b4a6e4') in 0.007916 seconds 
+  Import took 0.011236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.340410 seconds.
+  path: Assets/QuickOutline/Resources/Materials/OutlineMask.mat
+  artifactKey: Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuickOutline/Resources/Materials/OutlineMask.mat using Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e271976a892a59bb0c16736a6e9ffbf') in 0.055174 seconds 
+  Import took 0.058590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/QuickOutline/Samples/Materials/Plane.mat
+  artifactKey: Guid(f58cf65ea995c4b45be95713bdea8134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuickOutline/Samples/Materials/Plane.mat using Guid(f58cf65ea995c4b45be95713bdea8134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3fece782e71a7ed1b5626d4d9b365') in 0.013821 seconds 
+  Import took 0.016981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167551 seconds.
+  path: Assets/QuickOutline/Resources/Materials/OutlineFill.mat
+  artifactKey: Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuickOutline/Resources/Materials/OutlineFill.mat using Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf3570c3c0e0fd1732c45f22f940656') in 0.010059 seconds 
+  Import took 0.013587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.525009 seconds.
+  path: Assets/Prefabs/Cube 1.prefab
+  artifactKey: Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube 1.prefab using Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3229678894c4a634a53215df0d35ae') in 0.019409 seconds 
+  Import took 0.022796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007774 seconds.
+  path: Assets/Prefabs/Cube 1.prefab
+  artifactKey: Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube 1.prefab using Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3229678894c4a634a53215df0d35ae') in 0.007329 seconds 
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.758288 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3b1331fb519aa1193b446a771f8d16') in 0.007567 seconds 
+  Import took 0.011064 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006510 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B3306110 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F53ADF40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEC3F030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B04CD060 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B024B010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0635010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54E8310 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AED75030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F61E9020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B312FDB0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1C7B0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54146D0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B22E64F0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B33F5680 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEC3F030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322D0F0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (749ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2740.
+Total: 2.867500 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.593400 ms  DeleteObjects: 0.019200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005484 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B3306110 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5A34030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A494420 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4780040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B024B010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54EAD10 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5A34030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F66D9050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1DDD0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1DAEFF0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B22E64F0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B33F5680 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEC3F030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322BCB0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2744.
+Total: 2.859700 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.562100 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.948445 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(0ba700feb486708438a8ce491be2c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0df4305192db35d17bd6d61b427f4e') in 0.051848 seconds 
+  Import took 0.055302 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005182 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B1E91DA0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF0F9030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A494420 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AEA04020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4776020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54E8310 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31EE040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE844020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1BCA0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1DAEFF0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189D9BD50 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B33F5680 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189C1A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B3227AE0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 169.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2748.
+Total: 2.960500 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.657900 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005351 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1AFC60E40 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF0F9030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A494420 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D48C8020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5928010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54E8310 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31EE040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B312FDB0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1FF00 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1DAEFF0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189D9BD50 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B33F5680 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189C1A010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322E530 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.8 MB.
+System memory in use after: 169.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 2.999000 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.057100 ms MarkObjects: 2.698100 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005365 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1F5740020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF0F9030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A494420 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F6EBE010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF80B3E0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54E8310 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31EE040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE844020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1B190 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1DAEFF0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5598380 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5598380 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFC57010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322A870 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2754.
+Total: 2.991200 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.693700 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006209 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E1B1E91DA0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F6CCB030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A494420 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D48C8020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AF80B3E0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54E8310 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31EE040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE844020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1B190 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1DAEFF0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E189E9E670 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AFB9F010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4776020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B322DB10 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.8 MB.
+System memory in use after: 169.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 2.828100 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.056300 ms MarkObjects: 2.543900 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005651 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E18A022B30 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F6CCB030 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E18A494420 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D48C8020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B3382E20 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B1D77020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4028050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F54EA7D0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B31EE040 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE52C010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B0557010 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1AE844020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B2C1C7B0 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F6D55020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4764050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1D4764050 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1F5F7B020 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E1B3229940 doesn't match image C:\Users\jupis\Documents\GitHub\vrMobile\VRGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <d245d81e86d94ab4bfcb981bbfdb45ac>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.8 MB.
+System memory in use after: 169.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2760.
+Total: 2.944400 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.056300 ms MarkObjects: 2.664700 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
